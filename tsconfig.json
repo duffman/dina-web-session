@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"target":                           "es5",
+		"lib":                              [
+			"es6"
+		],
+		"experimentalDecorators":           true,
+		"emitDecoratorMetadata":            true,
+		"module":                           "commonjs",
+		"baseUrl":                          "./src",
+		"rootDir":                          "./src",
+		"outDir":                           "./lib",
+		"allowJs":                          true,
+
+		// Generate d.ts files
+		"declaration":                      true,
+		// go to js file when using IDE functions like
+		// "Go to Definition" in VSCode
+		"declarationMap":                   true,
+		"moduleResolution":                 "node",
+		"sourceMap":                        true,
+		"sourceRoot":                       "./src",
+		"esModuleInterop":                  true,
+		"forceConsistentCasingInFileNames": true,
+		"strict":                           false,
+		"skipLibCheck":                     true
+	},
+	"exclude":         [
+		"node_modules",
+		"lib"
+	],
+	"include":         [
+		"src"
+	]
+}
